@@ -23,6 +23,7 @@ export type Fairy = {
 export type Features = {
   name: string;
   description: string;
+  rule: string;
 };
 
 export type StrapiResponse<T> = {
